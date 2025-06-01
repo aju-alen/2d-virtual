@@ -1,0 +1,19 @@
+{
+  "name": "https",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node dist/index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.2",
+    "express": "^5.1.0",
+    "@repo/db": "*"
+  }
+}
